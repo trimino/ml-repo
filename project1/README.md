@@ -33,14 +33,20 @@ Consider the foo function above, implemented in Python. What is the time complex
 
 Consider matrices A and B defined as:
 
-A = \begin{bmatrix}
+A = ```math
+\begin{bmatrix}
 a & b \\
 c & d
-\end{bmatrix},
-B = \begin{bmatrix}
-e \\
+\end{bmatrix}
+```
+.
+
+B = ```math
+\begin{bmatrix}
+e \\\
 f
 \end{bmatrix}
+```
 
 What is the result of matrix multiplication A*B? Specify the values at all positions of the result matrix, in terms of the symbols a, b, c, d, e, f.
 
