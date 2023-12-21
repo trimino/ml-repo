@@ -100,13 +100,13 @@ Two hens lay a combined total of two eggs in two days. If this rate of egg produ
 Implement a a Python executable file called **file_stats.py** that reads computes the average and standard deviation of each column of numbers contained in some specified file. In particular, your program should be invoked from the command line as follows:
 > python file_stats.py pathname
 
-**Argument "*pathname*" is the path name of the data file.** The path name can specify any file stored on the local computer (not just in the current directory). This file will contain data in tabular format, so that each value is a number, and values are separated by white space. An example of such a file is *numbers1.txt*.
+**Argument "*pathname*" is the path name of the data file.** The path name can specify any file stored on the local computer (not just in the current directory). This file will contain data in tabular format, so that each value is a number, and values are separated by white space. An example of such a file is [numbers1.txt](./numbers1.txt).
 
 Returns the average and standard deviation of the numbers contained in the file. For standard deviation, please use the formula that divides by n-1 (when we have n numbers in our dataset). You can assume that the dataset will contain at least two rows, and each all rows contain the same number of values. The program should print a line for each column of the data, and that line should follow this format:
 
 > Column %d: mean = %.4f, std = %.4f
 
-For example, if *numbers1.txt* is the input file, the output should look exactly like this:
+For example, if [numbers1.txt](./numbers1.txt) is the input file, the output should look exactly like this:
 > Column 1: mean = 62.3855, std = 34.5852
 Column 2: mean = 66.0211, std = 33.0843
 Column 3: mean = 58.7307, std = 29.3490
@@ -155,30 +155,3 @@ If you implement the *nth_smallest function* correctly, the above code should pr
 ```
 
 Please place your python code in a file called *nth_smallest.py*
-
-## Task 12
-
-**Part a:** Towards the end of October, when the deadline for assignment 5 approaches, a student sends the instructor the following email:
-
->"I really, really need an extension, I have three midterms this week, I do not have time to work on the homework. My homework average is already close to 60, I am afraid of failing the class."
-
-Which of these responses should the student expect from the instructor?
-
-* [ ] Sure, no problem, you can have an extra week. If you need longer just let me know. I don't even know why I bother to post deadlines, I don't care about them anyway.
-* [ ] No, extensions are not provided. If you do not make the deadline, I am afraid your chances of passing the class will be slim.
-* [ ] No, extensions are not provided except in case of an emergency documented in writing (too much other work, computer/network problems do not qualify). However, remember that you can resubmit (or make late submissions) until Friday December 9. For the purposes of making a B, C, or D grade, the resubmission score fully replaces the original grade. So, if you do not make the deadline and you get a 0, you can fully replace that score with a resubmission. The only caveat is that the resubmission score will not be considered for the purposes of giving an A grade.
-
-**Part b:** Suppose that instead of "three midterms this week", the reason for the extension request was a computer crash or a network problem. In that case, which of the above three responses should the student expect?
-
-## Task 13
-
-A student sends the instructor the following email:
-
-> "For assignment X, can I use library Y? That library already seems to implement what you are asking."
-
-Which of these responses should the student expect from the instructor?
-
-* [ ] Yes, go ahead.
-* [ ] No, using external libraries or toolkits is not allowed.
-* [ ] Use at your own risk. The lectures have provided all the information that you need to implement everything from scratch. Your solution should produce the correct outputs for the test inputs that we will use during grading. If you get that done using an existing library, that is fine. If the library produces results that do not match my specifications, you bear the responsibility.
-* [ ] Let me check to verify if that library does exactly what I am asking. If so, I will let you know and you can go ahead.
