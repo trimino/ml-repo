@@ -33,15 +33,14 @@ Consider the foo function above, implemented in Python. What is the time complex
 
 Consider matrices A and B defined as:
 
-A = ```math
+```math
 \begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}
 ```
-.
 
-B = ```math
+```math
 \begin{bmatrix}
 e \\\
 f
