@@ -38,10 +38,8 @@ A = \begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}
-```
 
-```math
-\begin{bmatrix}
+B = \begin{bmatrix}
 e \\\
 f
 \end{bmatrix}
