@@ -38,7 +38,7 @@ A = \begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}
-
+, 
 B = \begin{bmatrix}
 e \\\
 f
