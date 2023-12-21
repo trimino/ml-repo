@@ -103,4 +103,4 @@ In your answers.pdf document, provide ONLY THE LAST LINE (the line printing the 
 
 ### Example output
 
-Students usually ask for an example of correct output for this program. In the real world, usually you will not be able to obtain such examples. To best prepare for the real world, I strongly recommend that you try to develop and test your solution without using such an example output. Nonetheless, if you decide that you need to see such an output, file [results_yeast.txt](./ucidata/results_yeast.txt) shows the output of my program when run on the yeast dataset.
+Students usually ask for an example of correct output for this program. In the real world, usually you will not be able to obtain such examples. To best prepare for the real world, I strongly recommend that you try to develop and test your solution without using such an example output. Nonetheless, if you decide that you need to see such an output, file [results_yeast.txt](./results/results_yeast.txt) shows the output of my program when run on the yeast dataset.
